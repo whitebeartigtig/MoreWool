@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "morewool:dye",
+      "damage": 9
+    },
+    {
+      "item": "minecraft:dye",
+      "damage": 14
+    }
+  ],
+  "result": {
+    "item": "morewool:dye",
+    "damage": 10
+  }
+}

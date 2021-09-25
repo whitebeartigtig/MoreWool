@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "morewool",
+  "version": "${version}",
+
+  "name": "MoreWool",
+  "description": "Adds more wool colours!",
+  "authors": [
+    "whitebear",
+    "abeln8r"
+  ],
+  "contact": {
+    "homepage": "https://glass-repo.net/repo/mod/morewool/",
+    "sources": "https://github.com/calmilamsy/BIN-fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/morewool/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "stationapi:event_bus": [
+      "net.whitebear.morewool.MoreWool",
+      "net.whitebear.morewool.blocks.Blocks",
+      "net.whitebear.morewool.items.Items"
+    ],
+    "stationapi:event_bus_client": [
+      "net.whitebear.morewool.textures.Textures"
+    ]
+  },
+
+  "depends": {
+    "minecraft": "1.0.0-beta.7.3",
+    "stationapi": ">=2.0-PRE2"
+  }
+}
