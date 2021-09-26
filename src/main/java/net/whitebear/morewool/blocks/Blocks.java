@@ -11,7 +11,7 @@ public class Blocks {
 
     @EventListener
     private static void RegisterBlocks(BlockRegistryEvent event) {
-        wool = new BlockWool(Identifier.of(MoreWool.MOD_ID, "wool")).setHardness(0.8F).setSounds(BlockBase.WOOD_SOUNDS).setTranslationKey(MoreWool.MOD_ID, "wool");
+        wool = new BlockWool(Identifier.of(MoreWool.MOD_ID, "wool")).setHardness(0.8F).setSounds(BlockBase.WOOL_SOUNDS).setTranslationKey(MoreWool.MOD_ID, "wool");
     }
 
     public static TemplateBlockBase wool;
