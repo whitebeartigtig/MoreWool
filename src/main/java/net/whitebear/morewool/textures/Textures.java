@@ -2,6 +2,7 @@ package net.whitebear.morewool.textures;
 
 import net.mine_diver.unsafeevents.listener.EventListener;
 import net.modificationstation.stationapi.api.client.event.texture.TextureRegisterEvent;
+import net.modificationstation.stationapi.api.client.texture.atlas.Atlas;
 import net.modificationstation.stationapi.api.client.texture.atlas.Atlases;
 import net.modificationstation.stationapi.api.client.texture.atlas.ExpandableAtlas;
 import net.modificationstation.stationapi.api.registry.Identifier;
@@ -32,7 +33,21 @@ public class Textures {
                 terrain.addTexture(of(MOD_ID, "blocks/Sky")).index,
                 terrain.addTexture(of(MOD_ID, "blocks/Teal")).index,
                 terrain.addTexture(of(MOD_ID, "blocks/Tungsten")).index,
-
+        };
+        ClassicWoolTextures = new int[] {
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicRedWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicOrangeWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicYellowWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicChartreuseWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicGreenWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicSpringGreenWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicCyanWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicCapriWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicUltramarineWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicVioletWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicPurpleWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicMagentaWool")).index,
+                terrain.addTexture(of(MOD_ID, "blocks/ClassicRoseWool")).index,
         };
         ExpandableAtlas items = Atlases.getStationGuiItems();
         DyeTextures = new int[] {
@@ -52,10 +67,26 @@ public class Textures {
                 items.addTexture(of(MOD_ID, "items/SkyDye")).index,
                 items.addTexture(of(MOD_ID, "items/TealDye")).index,
                 items.addTexture(of(MOD_ID, "items/TungstenDye")).index,
+
+                items.addTexture(of(MOD_ID, "items/ClassicRedDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicOrangeDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicYellowDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicChartreuseDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicGreenDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicSpringGreenDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicCyanDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicCapriDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicUltramarineDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicVioletDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicPurpleDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicMagentaDye")).index,
+                items.addTexture(of(MOD_ID, "items/ClassicRoseDye")).index,
+
         };
     }
 
     public static int[] WoolTextures;
+    public static int[] ClassicWoolTextures;
     public static int[] DyeTextures;
 
 

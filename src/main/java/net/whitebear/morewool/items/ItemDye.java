@@ -14,7 +14,7 @@ public class ItemDye extends TemplateItemBase {
 
     @Override
     public int getTexturePosition(int damage) {
-        return Textures.DyeTextures[Ints.constrainToRange(damage, 0, 15)];
+        return Textures.DyeTextures[Ints.constrainToRange(damage, 0, 28)];
     }
 
     @Override
