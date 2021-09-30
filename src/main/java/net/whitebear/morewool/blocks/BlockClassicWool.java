@@ -14,6 +14,9 @@ public class BlockClassicWool extends TemplateBlockBase {
 
     @Override
     public int getTextureForSide(int side, int meta) {
+        if (meta > Textures.ClassicWoolTextures.length-1) {
+            return Textures.ClassicWoolTextures[0];
+        }
         return Textures.ClassicWoolTextures[meta];
     }
 
